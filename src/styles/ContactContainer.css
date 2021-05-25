@@ -1,0 +1,31 @@
+main .contact-container {
+    width: 24%;
+    height: 87.2vh;
+    padding-left: 1.6rem;
+    user-select: none;
+    position: fixed;
+    right: 1rem;
+}
+
+.contact-container .contact-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-header p {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #636e72;
+    padding-left: 12px;
+}
+
+.contact-header .contact-header-right {
+    width: 35%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.contact-header-right svg {
+    cursor: pointer;
+}

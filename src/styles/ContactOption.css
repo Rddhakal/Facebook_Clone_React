@@ -1,0 +1,23 @@
+.contact-container .contact-option {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.contact-option:hover {
+    background: #e4e6eb;
+}
+
+.contact-option .user-icon {
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.contact-option .user-name {
+    font-size: 15px;
+    font-weight: bold;
+}

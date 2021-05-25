@@ -1,0 +1,124 @@
+.all-post-container .post-card {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.post-card .post-card-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.post-card-header .user-icon {
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.post-card-header .post-card-header-right .user-name, .time {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.post-card .post-card-body {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.post-card-body .post-img {
+    user-select: none;
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+
+.post-footer {
+    user-select: none;
+    width: 100%;
+    padding: 8px 20px;
+}
+
+.post-footer .like-comment-status {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #dadfe0;
+    border-bottom: 1px solid #dfe0e2;
+}
+
+.like-comment-status p {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.like-comment-status p img {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px
+}
+
+.like-comment-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe0e2;
+    padding: 5px 0;
+}
+
+.like-btn {
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.like-btn .likes-emoji {
+    position: absolute;
+    top: -45px;
+    left: 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e4e6eb;
+    padding: 6px;
+    border-radius: 100px;
+    opacity: 0;
+    pointer-events: none;
+    
+
+}
+
+.like-btn .likes-emoji img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px
+}
+
+.like-btn:hover .likes-emoji {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.like-btn, .comment-btn, .share-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 0;
+    border-radius: 5px;
+    width: 48%;
+}
+
+.like-btn p, .comment-btn p, .share-btn p {
+    font-size: 14px;
+    margin-left: 10px
+}
+.like-btn:hover, .comment-btn:hover ,.share-btn:hover {
+    background: #e4e6eb;
+}

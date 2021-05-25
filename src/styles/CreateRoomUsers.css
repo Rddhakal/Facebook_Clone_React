@@ -1,0 +1,12 @@
+.create-room-container .users {
+    display: flex;
+    align-items: center;
+}
+
+.users .user-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 100px;
+    cursor: pointer;
+}

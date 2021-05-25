@@ -1,0 +1,5 @@
+main .sidebar {
+    width: 22%;
+    user-select: none;
+    position: fixed;
+}

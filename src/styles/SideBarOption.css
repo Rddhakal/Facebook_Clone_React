@@ -1,0 +1,23 @@
+.sidebar .sidebar-option {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sidebar-option:hover {
+    background: #e4e6eb;
+}
+
+.sidebar-option img {
+    width: 29px;
+    height: 29px;
+    margin-right: 15px;
+    border-radius: 100px;
+}
+
+.sidebar-option p {
+    font-size: 15px;
+}
